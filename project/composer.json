@@ -1,0 +1,22 @@
+{
+    "name": "sebastian/project",
+    "description": "The place for the real app",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "sfaulhammer",
+            "email": "s.faulhammer@gmx.at"
+        }
+    ],
+    "require": {
+        "sebastian/library":"v1.0",
+        "typo3fluid/fluid": "^2.5"
+    },
+    "repositories":{
+        "NachUe": {
+            "type":"vcs",
+            "url":"https://github.com/sfaulhammer/NachUE.git"
+        }
+    }
+}
