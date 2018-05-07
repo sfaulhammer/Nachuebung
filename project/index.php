@@ -1,5 +1,21 @@
 <?php
 namespace sebastian\project;
+?>
+    <html>
+    <body>
+    <form action='../library/Balls.php' method='get'>
+        <input type='radio' name='ausgabe' value='h'> HTML
+        <input type='radio' name='ausgabe' value='j'> JSON
+
+        <input type='radio' name='material' value='Gummi'> Gummi
+        <input type='radio' name='material' value='Kautschuk'> Kautschuk
+        <input type='radio' name='material' value='Plastik'> Plastik
+        <button type="submit" value="Los">Los</button>
+    </form>
+    </body>
+    </html>
+
+<?php
 /**
  * Created by PhpStorm.
  * User: Sebastian
